@@ -3,20 +3,21 @@ abstract: 'repeat loading Twitter statuses up to a certain point'
 author:
   - 'Toshio Ito <toshioito@cpan.org>'
 build_requires:
-  Module::Build::Pluggable::CPANfile: 0.02
-  Test::MockObject: 0
-  Test::More: 0
-  Try::Tiny: 0
+  Module::Build::Pluggable::CPANfile: '0.05'
+  Test::Identity: '0'
+  Test::MockObject: '0'
+  Test::More: '0'
+  Try::Tiny: '0'
 configure_requires:
-  Module::Build: 0.42
-  Module::Build::Pluggable: 0.09
-  Module::Build::Pluggable::CPANfile: 0.02
+  Module::Build: '0.42'
+  Module::Build::Pluggable: '0.09'
+  Module::Build::Pluggable::CPANfile: '0.05'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.42, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.141170'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Net-Twitter-Loader
 no_index:
   directory:
@@ -27,10 +28,10 @@ no_index:
   file:
     - README.pod
 requires:
-  JSON: 0
-  Time::HiRes: 0
-  Try::Tiny: 0
+  JSON: '0'
+  Time::HiRes: '0'
+  Try::Tiny: '0'
 resources:
   bugtracker: https://github.com/debug-ito/Net-Twitter-Loader/issues
   repository: git://github.com/debug-ito/Net-Twitter-Loader.git
-version: 0.01
+version: '0.02'

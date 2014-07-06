@@ -4,7 +4,7 @@
       "Toshio Ito <toshioito@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.42",
+   "generated_by" : "Module::Build version 0.4205",
    "license" : [
       "perl_5"
    ],
@@ -27,23 +27,28 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Module::Build::Pluggable::CPANfile" : "0.02",
-            "Test::MockObject" : "0",
-            "Test::More" : "0",
-            "Try::Tiny" : "0"
+            "Module::Build::Pluggable::CPANfile" : "0.05"
          }
       },
       "configure" : {
          "requires" : {
             "Module::Build" : "0.42",
             "Module::Build::Pluggable" : "0.09",
-            "Module::Build::Pluggable::CPANfile" : "0.02"
+            "Module::Build::Pluggable::CPANfile" : "0.05"
          }
       },
       "runtime" : {
          "requires" : {
             "JSON" : "0",
             "Time::HiRes" : "0",
+            "Try::Tiny" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Identity" : "0",
+            "Test::MockObject" : "0",
+            "Test::More" : "0",
             "Try::Tiny" : "0"
          }
       }
@@ -57,5 +62,5 @@
          "url" : "git://github.com/debug-ito/Net-Twitter-Loader.git"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
