@@ -9,8 +9,8 @@
       "perl_5"
    ],
    "meta-spec" : {
-      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : "2"
+      "url" : "https://metacpan.org/pod/CPAN::Meta::Spec",
+      "version" : 2
    },
    "name" : "Net-Twitter-Loader",
    "no_index" : {
@@ -25,16 +25,10 @@
       ]
    },
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Module::Build::Pluggable::CPANfile" : "0.05"
-         }
-      },
       "configure" : {
          "requires" : {
             "Module::Build" : "0.42",
-            "Module::Build::Pluggable" : "0.09",
-            "Module::Build::Pluggable::CPANfile" : "0.05"
+            "Module::Build::Prereqs::FromCPANfile" : "0.02"
          }
       },
       "runtime" : {
@@ -59,8 +53,9 @@
          "web" : "https://github.com/debug-ito/Net-Twitter-Loader/issues"
       },
       "repository" : {
-         "url" : "git://github.com/debug-ito/Net-Twitter-Loader.git"
+         "url" : "git://github.com/debug-ito/Net-Twitter-Loader.git",
+         "web" : "https://github.com/debug-ito/Net-Twitter-Loader"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
